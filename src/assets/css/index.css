@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+button {
+  font-family: "Mulish", sans-serif;
+}
+.main-div-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.form-control {
+  color: #828282 !important;
+  font-family: "Mulish", sans-serif !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  border: 1px solid #d0d0d0 !important;
+  padding: 15px 35px !important;
+}
+.input-no-icon {
+  padding: 15px 20px !important;
+}
+.input-label {
+  color: #2d3748;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.input-label-2 {
+  color: #2d3748;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+}
+.p-0 {
+  padding: 0px !important;
+}
+.margin-0 {
+  margin: 0px !important;
+}
+.col-left-div {
+  background-color: #3641a2;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.form-col-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.form-main {
+  text-align: center;
+  padding: 6rem 0px;
+}
+.form-main-div {
+  max-width: 450px;
+  margin: 9rem auto 0px auto;
+  text-align: start;
+}
+.form-btn-div {
+  max-width: 450px;
+  margin: 0px auto;
+}
+.form-main-div-large {
+  max-width: 550px;
+  margin: 6rem auto 0px auto;
+  text-align: start;
+}
+.form-main-div-large-forget {
+  max-width: 450px;
+  margin: 9rem auto 0px auto;
+  text-align: start;
+}
+.form-main-div-large-forget-2 {
+  max-width: 450px;
+  margin: 5rem auto 0px auto;
+  text-align: start;
+}
+.main-header {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+}
+.text-name-color {
+  color: #333d98;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+.form-header-text,
+.form-header-text-large {
+  color: #1d1d1d;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 2.5rem;
+}
+.form-header-text-large {
+  margin-bottom: 0rem;
+}
+.form-header-text-large-description {
+  color: #1d1d1d;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.form-action-link {
+  float: right;
+  text-decoration: none !important;
+  color: #6f74dd;
+  font-family: "Mulish", sans-serif !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form-action-button {
+  border-radius: 40px !important;
+  background: #3641a2 !important;
+  width: 100%;
+  padding: 14px 15px !important;
+  color: white;
+  border: none !important;
+  margin-top: 2rem;
+}
+.socialite-btn {
+  border-radius: 40px !important;
+  background: white !important;
+  width: 100%;
+  padding: 14px 15px !important;
+  color: white;
+  border: 1px solid #3641a2 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.socialite-btn-text {
+  color: #3641a2;
+  font-size: 14px;
+  padding: 0px 5px !important;
+  margin: 0px;
+}
+.or-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+  margin: 1rem auto;
+  gap: 0.5rem;
+}
+.form-line {
+  border-top: 1px solid #e6e9fa;
+  width: 100%;
+}
+.form-text {
+  color: #828282;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.link-color {
+  color: #3641a2;
+  text-decoration: none;
+}
+.left-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  padding: 6rem 0px;
+  gap: 4rem;
+}
+.logo {
+  width: 150px;
+}
+.left-side-image {
+  width: 100%;
+  max-width: 420px;
+}
+.left-side-div-description {
+  max-width: 660px;
+  text-align: center;
+}
+.left-side-description {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  margin: 0;
+}
+.left-side-div-description2 {
+  max-width: 640px;
+  text-align: center;
+}
+.left-side-description2 {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0;
+}
+.left-side-description-small {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+.form-group {
+  position: relative;
+}
+.form-left-side-icon {
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  color: #d0d0d0;
+  font-size: 24px;
+}
+.form-left-side-right {
+  position: absolute;
+  top: 22%;
+  right: 3%;
+  color: #d0d0d0;
+  font-size: 30px;
+}
+.m-r {
+  padding: 0px 10px 0px 0px !important;
+}
+.form-head-text {
+  color: #546881;
+  font-family: Mulish;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.input-note {
+  color: #2d3748;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.603px;
+}
+.form-check-formGroup{
+  padding-left: 1.3rem!important;
+}
+.form-check-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+@media only screen and (max-width: 1366px) {
+  .form-main-div {
+    max-width: 350px;
+    margin: 9rem auto 0px auto;
+    text-align: start;
+  }
+  .form-btn-div {
+    max-width: 350px;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .main-div-container {
+    position: relative;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+.col-left-div {
+    display: none!important;
+  }
+  .form-check-label {
+    font-size: 12px;
+  }
+  .reg-div {
+    padding: 0px 1rem!important;
+  }
+
+  .m-r {
+    padding: 0px 00px 0px 0px !important;
+}
+}
